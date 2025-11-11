@@ -23,6 +23,12 @@ A Notion-like lightweight, no-code system for managing notes and reminders withi
 - **Tools:** Sigma (data apps, input tables, actions)
 - **[View Project →](https://workout-wednesday.com/2025-week-38-sigma-can-you-make-some-snotes/)**
 
+  ### 4. Smart Allocation Modeler - Logistics & Planning
+Simulate how to distribute limited inventory during a shortage. Use the controls to test a prioritization strategy and instantly see the impact on your order fulfillment.
+- **Tools:** Sigma (data apps, input tables, actions, control elements)
+- ![Screenshot](project4-allocation/images/SmartAllocationModel.png)
+
+
 ## Skills & Tools
 - Sigma Computing BI
 - Excel
