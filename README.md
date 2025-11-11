@@ -6,7 +6,7 @@ Principal Analytics Consultant with six years of experience building dashboards,
 
 ## Experience
 - phData (current) - Principal Analytics Consultant
-- Softbank Robotics - Product Manager, Data Solutions and Customer Experience Manager
+- Softbank Robotics - Product Manager (Efficiency and Data Products) and Customer Experience Manager
 - dwelo/Level Home - Data Analyst
 - Former small business owner
 
