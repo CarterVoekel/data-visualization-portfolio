@@ -26,7 +26,7 @@ A Notion-like lightweight, no-code system for managing notes and reminders withi
   ### 4. Smart Allocation Modeler - Logistics & Planning
 Simulate how to distribute limited inventory during a shortage. Use the controls to test a prioritization strategy and instantly see the impact on your order fulfillment.
 - **Tools:** Sigma (data apps, input tables, actions, control elements)
-- ![Screenshot](project4-allocation/images/Smart-Allocation-Model.png)
+- ![Screenshot](project4-allocation/images/smart-allocation-model.png)
 
 
 ## Skills & Tools
