@@ -1,4 +1,4 @@
-# Data Visualization Portfolio
+# Data Visualizations and Apps Portfolio
 Portfolio of business intelligence dashboards and ad hoc analytics solutions using Sigma
 
 ## About Me
