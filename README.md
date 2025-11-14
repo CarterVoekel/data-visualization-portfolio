@@ -30,8 +30,6 @@ Principal Analytics Consultant focused on building data products, dashboards, an
 
 ### 1. NPS Tool & Dashboard - Workout Wednesday
 Interactive NPS calculator and dashboard built in Sigma. It turns raw survey responses into a usable, ongoing view of customer sentiment instead of a single static score.
-project4-allocation/images
-/NPS_image.png
 
 **Use case**
 Track NPS over time, by segment, and by key filters (product, region, customer type) while letting users input or refresh responses directly in Sigma.
@@ -39,51 +37,10 @@ Track NPS over time, by segment, and by key filters (product, region, customer t
 **What it shows**
 - Overall NPS, response volume, and % Promoters / Passives / Detractors
 - NPS trend over time (weekly/monthly)
-- NPS by segment (e.g., product, region, customer tier)
 - Table of individual responses with filters for deep dives
 - **Tools:** Sigma (data app, input tables, controls, custom calculations)
 
 ![NPS Dashboard Screenshot](project4-allocation/images/NPS_image.png)
-
-<details>
-<summary><strong>Example logic / code</strong></summary>
-
-<br>
-
-```text
--- 1. Classify responses
-
--- Promoter flag
-[IsPromoter] = If([Score] >= 9, 1, 0)
-
--- Detractor flag
-[IsDetractor] = If([Score] <= 6, 1, 0)
-
--- Passive flag (optional)
-[IsPassive] = If([Score] >= 7 And [Score] <= 8, 1, 0)
-
--- 2. NPS calculation (overall or by group)
-[TotalResponses]  = Count([ResponseID])
-[Promoters]       = Sum([IsPromoter])
-[Detractors]      = Sum([IsDetractor])
-
-[NPS] = 
-  If([TotalResponses] = 0,
-     Null,
-     ([Promoters] - [Detractors]) / [TotalResponses] * 100
-  )
-
--- 3. Time-series NPS (e.g., by month)
-[Month] = DateTrunc("month", [ResponseDate])
-
--- 4. Segment NPS (e.g., by Product)
--- Group by: [Product], [Month]
--- Metrics: [NPS], [TotalResponses]
-```
-
-</details>
-
-<br>
 
 ---
 
@@ -115,10 +72,12 @@ Give teams a simple way to record “why” something happened (context, decisio
 **What it shows**  
 - Notes linked to a specific entity (account, site, order, etc.)  
 - Status, category, timestamps, and author for each note  
-- Filters to review notes by entity, status, or time period  
-
-- **Tools:** Sigma (data apps, input tables, actions)  
+- Filters to review notes by entity, status, or time period
+- **Tools:** Sigma (data apps, input tables, actions)
 - **[View Project](https://workout-wednesday.com/2025-week-38-sigma-can-you-make-some-snotes/)**
+
+![Sigma Notes](project4-allocation/images/Notes_image.png)
+
 
 
 ---
