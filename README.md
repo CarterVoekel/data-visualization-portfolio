@@ -30,6 +30,8 @@ Principal Analytics Consultant focused on building data products, dashboards, an
 
 ### 1. NPS Tool & Dashboard - Workout Wednesday
 Interactive NPS calculator and dashboard built in Sigma. It turns raw survey responses into a usable, ongoing view of customer sentiment instead of a single static score.
+project4-allocation/images
+/NPS_image.png
 
 **Use case**
 Track NPS over time, by segment, and by key filters (product, region, customer type) while letting users input or refresh responses directly in Sigma.
@@ -41,7 +43,7 @@ Track NPS over time, by segment, and by key filters (product, region, customer t
 - Table of individual responses with filters for deep dives
 - **Tools:** Sigma (data app, input tables, controls, custom calculations)
 
-![NPS Dashboard Screenshot](path/to/your-nps-screenshot.png)
+![NPS Dashboard Screenshot](project4-allocation/images/NPS_image.png)
 
 <details>
 <summary><strong>Example logic / code</strong></summary>
