@@ -133,10 +133,29 @@ Help operations, planning, or logistics teams decide how to allocate constrained
 - Controls for total available supply and allocation rules (e.g., equal share, priority-first)  
 - Summary KPIs like % of demand fulfilled and shortfall by segment  
 
-- **Tools:** Sigma (data apps, input tables, actions, control elements)
+- **Tools:** Sigma (data apps, input tables, actions, control elements, triggered alerts)
 
 
 ![Smart Allocation Modeler Screenshot](project4-allocation/images/smart-allocation-model.png)
+
+<details>
+<summary><strong>Example logic / code</strong></summary>
+
+<br>
+
+```text
+-- 1. Priority Rule
+
+If([Priority Filter] = "Prioritize", If([Product] = [Focus Product], 1, 2), [Product] = [Focus Product], 2, 1)
+
+-- 2. Focused Product Fill Rate %
+
+SumIf([Allocated Qty], [Product] = [Focus Product]) / SumIf([FPO Demand Qty], [Product] = [Focus Product])
+```
+
+</details>
+
+<br>
 
 ---
 
