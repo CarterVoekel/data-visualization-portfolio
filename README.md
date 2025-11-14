@@ -85,26 +85,56 @@ Track NPS over time, by segment, and by key filters (product, region, customer t
 
 ---
 
-### 2. Custom Context Modal - Workout Wednesday
-Right-click context menus that transform static cells into actionable insights, enabling external research and workflow triggers directly from the dashboard.
+### 2. Custom Context Modal - Workout Wednesday  
 
-- **Tools:** Sigma (input tables, actions, custom calcs, design, data apps)
+Context-aware right-click menus that turn static table cells into actionable entry points. Users can open external resources, launch workflows, or jump to focused detail views without leaving the main dashboard.
+
+**Use case**  
+Give operators and analysts a fast way to investigate a record (account, order, site, etc.) or trigger follow-up actions directly from a Sigma table.
+
+**What it shows**  
+- Right-click menu with tailored options based on the selected row  
+- Links out to research tools, CRMs, or internal systems  
+- Optional jump-to tabs / filtered views inside the same Sigma workbook  
+
+- **Tools:** Sigma (input tables, actions, custom calcs, design, data apps)  
 - **[View Project](https://workout-wednesday.com/2025-week-26-sigma-context/)**
 
+
 ---
 
-### 3. Sigma Notes App - Workout Wednesday
-A Notion-like lightweight, no-code system for managing notes and reminders within Sigma.
+### 3. Sigma Notes App - Workout Wednesday  
 
-- **Tools:** Sigma (data apps, input tables, actions)
+A lightweight, Notion-style notes system built directly in Sigma, used to capture context, reminders, and annotations alongside operational metrics.
+
+**Use case**  
+Give teams a simple way to record “why” something happened (context, decisions, next steps) without leaving the dashboard or bouncing between tools.
+
+**What it shows**  
+- Notes linked to a specific entity (account, site, order, etc.)  
+- Status, category, timestamps, and author for each note  
+- Filters to review notes by entity, status, or time period  
+
+- **Tools:** Sigma (data apps, input tables, actions)  
 - **[View Project](https://workout-wednesday.com/2025-week-38-sigma-can-you-make-some-snotes/)**
 
+
 ---
 
-### 4. Smart Allocation Modeler - Logistics & Planning
-Simulates how to distribute limited inventory during a shortage. Use controls to test prioritization strategies and see the impact on order fulfillment.
+### 4. Smart Allocation Modeler - Logistics & Planning  
+
+Simulates how to distribute limited inventory during a shortage, letting users test different prioritization strategies and see the impact on order fulfillment in real time.
+
+**Use case**  
+Help operations, planning, or logistics teams decide how to allocate constrained supply across customers, regions, or orders when there isn’t enough to go around.
+
+**What it shows**  
+- Requested vs. allocated quantities by customer, region, or order  
+- Controls for total available supply and allocation rules (e.g., equal share, priority-first)  
+- Summary KPIs like % of demand fulfilled and shortfall by segment  
 
 - **Tools:** Sigma (data apps, input tables, actions, control elements)
+
 
 ![Smart Allocation Modeler Screenshot](project4-allocation/images/smart-allocation-model.png)
 
