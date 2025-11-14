@@ -1,8 +1,20 @@
 # Data Visualizations and Apps Portfolio
-Portfolio of business intelligence dashboards and ad hoc analytics solutions using Sigma
+Business intelligence dashboards and data apps built in Sigma, focused on real-world operations, workflows, and customer analytics.
+
+## How to explore
+This portfolio highlights a few representative projects. Each section links to the live challenge or includes screenshots/video where possible.
 
 ## About Me
-Principal Analytics Consultant with six years of experience building dashboards, data apps, and analytics solutions
+
+Principal Analytics Consultant focused on building data products, dashboards, and data apps in modern BI tools (especially Sigma + Snowflake).
+
+## Skills & Tools
+
+- **BI:** Sigma, Omni, Tableau, Power BI
+- **Analytics:** Data modeling, forecasting, scenario modeling
+- **Stack:** SQL, Snowflake, modern data workflows
+- **AI:** ChatGPT (Projects, prompting), Claude, Gemini (NotebookLM)
+
 
 ## Experience
 - phData (current) - Principal Analytics Consultant
@@ -17,10 +29,15 @@ Principal Analytics Consultant with six years of experience building dashboards,
 
 ## Projects
 
-### 1. NPS Tool & Dashboard - Workout Wednesday
-Interactive dashboard tool that calculates Net Promoter Score with a backend for trends and analysis
+### 1. NPS Tool & Dashboard (Workout Wednesday)
+
+Interactive dashboard that calculates Net Promoter Score and tracks trends over time.
+
+- **Problem:** Make NPS usable beyond a single score, with trends and segmentation.
+- **What I did:** Built an input-driven Sigma data app with score calc, filters, and trend view.
 - **Tools:** Sigma (input tables, custom calcs, design, data apps, alerting)
-- **[View Project](https://workout-wednesday.com/2025-week-30-sigma-do-you-nps-why-yes/)**
+- **Link:** [View challenge + walkthrough](https://workout-wednesday.com/...)
+
 
 ### 2. Custom Context Modal - Workout Wednesday
 Right-click context menus that transform static cells into actionable insights, enabling external research and workflow triggers directly from the dashboard
@@ -33,26 +50,18 @@ A Notion-like lightweight, no-code system for managing notes and reminders withi
 - **[View Project](https://workout-wednesday.com/2025-week-38-sigma-can-you-make-some-snotes/)**
 
 ### 4. Smart Allocation Modeler - Logistics & Planning
-Simulate how to distribute limited inventory during a shortage. Use the controls to test a prioritization strategy and instantly see the impact on your order fulfillment
+Simulates how to distribute limited inventory during a shortage. Use controls to test prioritization strategies and see the impact on order fulfillment.
 - **Tools:** Sigma (data apps, input tables, actions, control elements)
-- ![Screenshot](project4-allocation/images/smart-allocation-model.png)
+  ![Smart Allocation Modeler Screenshot](project4-allocation/images/smart-allocation-model.png)
 
-  ### 5. Real-time Forecasting tools
+### 5. Real-time Forecasting tools
 Real-time forecasting in Sigma - no Excel, no imports, no waiting. Dynamic forecasting where your data already lives. Features: interactive growth models (linear, compound, actuals-based), live scenario planning (baseline, optimistic, pessimistic), and instant sensitivity analysis with adjustable inputs.
 - **Tools:** Sigma (data apps, input tables, control elements)
-- [Download / view the demo video](WoWForecastvid.mp4) _Click 'view raw' to view the video_
-
-
-## Skills & Tools
-- **BI Tools:** Sigma, Looker, Power BI, Omni Analytics Platform 
-- **Data Visualization:** Dashboard design, KPI development, data apps & solutions
-- **Analytics:** Ad hoc analysis, data modeling, scenario modeling
-- **Productivity:** JIRA, Asana, Salesforce, Hubspot, Miro, Trello, G Suite, MS Suite
-- **AI:** ChatGPT (Projects, prompting), Claude, Gemini (NotebookLM)
+- **Demo:** [View forecasting demo video](./WoWForecastvid.mp4)  
+  (On GitHub: click “Download” or “View raw” to play)
 
 ## Workout Wednesday
 - I'm a contributor to [Workout Wednesday Sigma Challenges](https://workout-wednesday.com/sigma-challenges/)
-
 
 ## Misc
 - Foster Coordinator, [Dogs Matter](https://www.dogsmatter2.org/)
