@@ -39,7 +39,7 @@ Simulate how to distribute limited inventory during a shortage. Use the controls
 
   ### 5. Real-time Forecasting tools
 Real-time forecasting in Sigma - no Excel, no imports, no waiting. Dynamic forecasting where your data already lives. Features: interactive growth models (linear, compound, actuals-based), live scenario planning (baseline, optimistic, pessimistic), and instant sensitivity analysis with adjustable inputs.
-- **Tools:** Sigma (data apps, input tables, actions, control elements)
+- **Tools:** Sigma (data apps, input tables, control elements)
 - [Download / view the demo video](WoWForecastvid.mp4) _Click 'view raw' to view the video_
 
 
