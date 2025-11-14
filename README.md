@@ -6,7 +6,7 @@ This portfolio highlights a few representative projects. Each section links to t
 
 ## About Me
 
-Principal Analytics Consultant focused on building data products, dashboards, and data apps in modern BI tools (especially Sigma + Snowflake).
+Principal Analytics Consultant focused on building data products, dashboards, and data apps in modern BI tools (especially Sigma + Snowflake). I'm a contributor to [Workout Wednesday Sigma Challenges](https://workout-wednesday.com/author/cartervmac-com/)
 
 ## Skills & Tools
 
@@ -54,14 +54,36 @@ Simulates how to distribute limited inventory during a shortage. Use controls to
 - **Tools:** Sigma (data apps, input tables, actions, control elements)
   ![Smart Allocation Modeler Screenshot](project4-allocation/images/smart-allocation-model.png)
 
-### 5. Real-time Forecasting tools
-Real-time forecasting in Sigma - no Excel, no imports, no waiting. Dynamic forecasting where your data already lives. Features: interactive growth models (linear, compound, actuals-based), live scenario planning (baseline, optimistic, pessimistic), and instant sensitivity analysis with adjustable inputs.
-- **Tools:** Sigma (data apps, input tables, control elements)
+### Real-time Forecasting Tools
+
+A set of forecasting views built in Sigma to project future demand based on historical data and user-driven assumptions. Designed for live scenario planning directly on top of warehouse data.
+
+**Use case**  
+Instead of exporting to Excel for every “what if” conversation, these tools let users adjust growth rates and assumptions in Sigma and instantly see the impact on future weeks.
+
+**What it shows**  
+- Historical time series at a weekly grain  
+- Future periods generated on the fly  
+- Growth models: flat, fixed growth %, and actuals-based growth  
+- Controls for growth rate, horizon length, and scenario (baseline, optimistic, pessimistic)  
+- Overlay of actuals vs. forecast for quick sanity checks  
 - **Demo:** [View forecasting demo video](./WoWForecastvid.mp4)  
   (On GitHub: click “Download” or “View raw” to play)
 
+<details>
+  <summary><strong>Example logic / code</strong></summary>
+
+<br>
+
+```text
+[GrowthRate] = 
+  If([CE-GrowthRate] > 1, 
+     [CE-GrowthRate] / 100, 
+     [CE-GrowthRate])
+
+
 ## Workout Wednesday
-- I'm a contributor to [Workout Wednesday Sigma Challenges](https://workout-wednesday.com/sigma-challenges/)
+- I'm a contributor to [Workout Wednesday Sigma Challenges](https://workout-wednesday.com/author/cartervmac-com/)
 
 ## Misc
 - Foster Coordinator, [Dogs Matter](https://www.dogsmatter2.org/)
