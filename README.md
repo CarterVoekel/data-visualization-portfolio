@@ -37,6 +37,11 @@ Simulate how to distribute limited inventory during a shortage. Use the controls
 - **Tools:** Sigma (data apps, input tables, actions, control elements)
 - ![Screenshot](project4-allocation/images/smart-allocation-model.png)
 
+  ### 5. Real-time Forecasting tools
+Real-time forecasting in Sigma - no Excel, no imports, no waiting. Dynamic forecasting where your data already lives. Features: interactive growth models (linear, compound, actuals-based), live scenario planning (baseline, optimistic, pessimistic), and instant sensitivity analysis with adjustable inputs.
+- **Tools:** Sigma (data apps, input tables, actions, control elements)
+- ![Download / view the demo video](WoWForecastvid.mp4)
+
 
 ## Skills & Tools
 - **BI Tools:** Sigma, Looker, Power BI, Omni Analytics Platform 
