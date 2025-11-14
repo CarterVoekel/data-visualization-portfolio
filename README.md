@@ -36,7 +36,7 @@ Interactive dashboard that calculates Net Promoter Score and tracks trends over 
 - **Problem:** Make NPS usable beyond a single score, with trends and segmentation.
 - **What I did:** Built an input-driven Sigma data app with score calc, filters, and trend view.
 - **Tools:** Sigma (input tables, custom calcs, design, data apps, alerting)
-- **Link:** [View challenge + walkthrough](https://workout-wednesday.com/...)
+- **Link:** [View challenge + walkthrough](https://workout-wednesday.com/2025-week-30-sigma-do-you-nps-why-yes/)
 
 
 ### 2. Custom Context Modal - Workout Wednesday
