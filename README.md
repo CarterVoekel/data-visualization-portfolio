@@ -168,5 +168,5 @@ Track performance over time and regional comparisons
 
 | | |
 |:-------------------------:|:-------------------------:|
-| <img width="100%" src="project4-allocation/images/Omni_dash_top.png"> <br> **Top Dashboard View** |  <img width="100%" src="project4-allocation/images/YOUR_IMAGE_2.png"> <br> **High-level snapshot of distribution center performance, featuring dynamic period-over-period (PoP) analysis** |
-| <img width="100%" src="project4-allocation/images/YOUR_IMAGE_3.png"> <br> **Your Third Caption** | <img width="100%" src="project4-allocation/images/YOUR_IMAGE_4.png"> <br> **Your Fourth Caption** |
+| <img width="70%" src="project4-allocation/images/Omni_dash_top.png"> <br> **High-level snapshot of distribution center performance, featuring dynamic period-over-period (PoP) analysis** |  <img width="70%" src="project4-allocation/images/Omni_dash2.png"> <br> **CAPTION 2** |
+| <img width="70%" src="project4-allocation/images/Omni_dash3.png"> <br> **CAPTION 3** | <img width="70%" src="project4-allocation/images/Omni_dash4"> <br> **CAPTION 4** |
