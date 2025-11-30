@@ -166,4 +166,7 @@ Track performance over time and regional comparisons
 - Omni's "just-in-time" modeling for quick promotion to the Shared Model
 - **Tools:** Omni Analytics (Query Views, filtering, AI summaries, Excel calculations, joins, templated filters)
 
-![Omni Dashboard](project4-allocation/images/Omni_dash_top.png)
+| | |
+|:-------------------------:|:-------------------------:|
+| <img width="100%" src="project4-allocation/images/Omni_dash_top.png"> <br> **Top Dashboard View** |  <img width="100%" src="project4-allocation/images/YOUR_IMAGE_2.png"> <br> **High-level snapshot of distribution center performance, featuring dynamic period-over-period (PoP) analysis** |
+| <img width="100%" src="project4-allocation/images/YOUR_IMAGE_3.png"> <br> **Your Third Caption** | <img width="100%" src="project4-allocation/images/YOUR_IMAGE_4.png"> <br> **Your Fourth Caption** |
