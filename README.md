@@ -151,3 +151,19 @@ If([Type] = "Future", [LastHistAvg] * Power(1 + [Growth Rate], [Index] - [MAX IN
 ```
 
 </details>
+
+---
+
+### 6. OMNI Dashboard
+This dashboard provides a high-level snapshot of distribution center performance, featuring dynamic period-over-period (PoP) analysis. It leverages Omni's Templated Filters to allow users to toggle time granularities (Month, Quarter, etc.) without requiring multiple static reports. The view compares current performance against the previous year, highlighting anomalies in shipping times and cancellation rates.
+
+**Use case**
+Track performance over time and regional comparisons
+
+**What it shows**
+- Omni's ease of use for data aggregation and analysis
+- Omni's filtering capabilities
+- Omni's "just-in-time" modeling for quick promotion to the Shared Model
+- **Tools:** Omni Analytics (Query Views, filtering, AI summaries, Excel calculations, joins, templated filters)
+
+![Omni Dashboard](project4-allocation/images/Omni_dash_top.png)
