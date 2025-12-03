@@ -26,6 +26,18 @@ Principal Analytics Consultant focused on building data products, dashboards, an
 
 ---
 
+## Featured Projects
+
+### OmniBoss – AI Knowledge Assistant for Omni Analytics
+
+![OmniBoss agent](project5-omniboss-agent/Omniboss-home.png)
+
+Internal Glean AI agent that turns my Omni Analytics training documentation and certification notes into a virtual BI expert for the team. It answers modeling, cohort analysis, and Omni vs Sigma questions in real time.
+
+[Read the full case study →](project5-omniboss-agent/README.md)
+
+---
+
 ## Projects
 
 ### 1. NPS Tool & Dashboard - Workout Wednesday
