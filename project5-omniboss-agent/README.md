@@ -7,7 +7,7 @@
 
 OmniBoss is an internal Glean AI agent that turns my Omni Analytics training documentation and certification notes into a virtual BI expert. It answers questions about modeling, cohort analysis, LOD strategies, and Omni vs Sigma trade-offs for project teams.
 
-![OmniBoss agent](project5-omniboss-agent/Omniboss-home.png)
+![OmniBoss agent](./Omniboss-home.png)
 
 ## Problem
 
