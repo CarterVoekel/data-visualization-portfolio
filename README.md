@@ -32,7 +32,7 @@ Principal Analytics Consultant focused on building data products, dashboards, an
 
 ![OmniBoss agent](project5-omniboss-agent/Omniboss-home.png)
 
-Internal Glean AI agent that turns my Omni Analytics training documentation and certification notes into a virtual BI expert for the team. It answers modeling, usage, workflow, and Omni vs Sigma questions in real time.
+Internal Glean-powered AI agent that turns my Omni Analytics training docs and certification notes into a virtual BI expert. OmniBoss answers “how do I…” questions, surfaces relevant examples, and converts long-form enablement material into concise, contextual guidance in real time.
 
 [Read the full case study →](project5-omniboss-agent/README.md)
 
