@@ -5,21 +5,26 @@
 
 ## Overview
 
-OmniBoss is an internal Glean AI agent that turns my Omni Analytics training documentation and certification notes into a virtual BI expert. It answers questions about modeling, cohort analysis, LOD strategies, and Omni vs Sigma trade-offs for project teams.
+OmniBoss is an internal Glean AI agent that turns my Omni Analytics training documentation and certification notes into a virtual BI expert. It answers “how do I…” questions about modeling, cohort analysis, LOD strategies, and Omni vs Sigma trade-offs for project teams in real time
 
 ![OmniBoss agent](./Omniboss-home.png)
 
 **Type:** Internal AI agent / knowledge tool  
-**Tools:** Glean, LLM (ChatGPT), Omni, retrieval over internal docs, prompt chaining 
+**Tools:** Glean, LLM (ChatGPT), retrieval over internal docs, prompt design & chaining  
 
 ## Problem
 
-Omni modeling patterns and best practices were scattered across personal notes, Notion pages, slide decks, and Slack threads  
+Key Omni modeling patterns and best practices were scattered across:
 
-This caused:
+- Personal notes and certification docs  
+- Notion pages and slide decks  
+- Slack threads and ad hoc answers  
+
+This led to:
+
 - Repeated “how do I model this?” questions from new consultants  
 - Ramp-up that depended on direct access to a few SMEs  
-- Inconsistent answers to the same modeling and workflow questions  
+- Inconsistent answers to the same modeling and workflow problems   
 
 ## Solution
 
@@ -41,7 +46,7 @@ This caused:
   - “How do I add an Excel formula to my table?”  
   - “When should I use Topics vs Views?”  
   - “What’s the preferred pattern for Omni vs Sigma in this use case?”  
-- OmniBoss retrieves relevant docs, applies the prompt logic, and returns a concise, contextual answer plus links to deeper material  
+- OmniBoss retrieves relevant content from the curated corpus, applies the prompt logic, and returns concise, contextual guidance plus pointers to more detail 
 
 ## Impact
 
