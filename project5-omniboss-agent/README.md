@@ -14,7 +14,7 @@ OmniBoss is an internal Glean AI agent that turns my Omni Analytics training doc
 
 ## Problem
 
-Omni modeling patterns and best practices were scattered across personal notes, Notion pages, slide decks, and Slack threads.  
+Omni modeling patterns and best practices were scattered across personal notes, Notion pages, slide decks, and Slack threads  
 
 This caused:
 - Repeated “how do I model this?” questions from new consultants  
@@ -24,7 +24,7 @@ This caused:
 ## Solution
 
 1. **Curated corpus**  
-   - Collected Omni docs, internal training guides, and certification notes into a focused, agent-ready corpus.  
+   - Collected Omni docs, internal training guides, and certification notes into a focused, agent-ready corpus  
 
 2. **Agent configuration**  
    - Designed a Glean agent (“OmniBoss”) scoped only to these sources to avoid hallucinations and keep answers grounded in approved patterns.  
@@ -38,16 +38,16 @@ This caused:
 ## How it Works
 
 - Consultants ask natural-language questions like:  
-  - “How should I model a Topic in Omni?”  
+  - “How do I add an Excel formula to my table?”  
   - “When should I use Topics vs Views?”  
-  - “What’s our preferred pattern for Omni vs Sigma in this use case?”  
-- OmniBoss retrieves relevant docs, applies the prompt logic, and returns a concise, contextual answer plus links to deeper material.  
+  - “What’s the preferred pattern for Omni vs Sigma in this use case?”  
+- OmniBoss retrieves relevant docs, applies the prompt logic, and returns a concise, contextual answer plus links to deeper material  
 
 ## Impact
 
-- Reduced repeated “how do I model this in Omni?” questions in Slack.  
-- Faster ramp-up for new team members on Omni projects.  
-- More consistent modeling and workflow decisions across consultants.  
-- Created a reusable pattern for future agents (Sigma, dbt, etc.). 
+- Reduced repeated “how do I model this in Omni?” questions in Slack  
+- Faster ramp-up for new team members on Omni projects  
+- More consistent modeling and workflow decisions across consultants  
+- Created a reusable pattern for future agents (Sigma, dbt, etc.) 
 
 *(Implementation details and metrics available on request; internal to employer.)*
