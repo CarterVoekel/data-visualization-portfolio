@@ -9,23 +9,45 @@ OmniBoss is an internal Glean AI agent that turns my Omni Analytics training doc
 
 ![OmniBoss agent](./Omniboss-home.png)
 
+**Type:** Internal AI agent / knowledge tool  
+**Tools:** Glean, LLM (ChatGPT), Omni, retrieval over internal docs, prompt chaining 
+
 ## Problem
 
-Omni modeling patterns and best practices were spread across personal notes, Notion pages, and slide decks. New consultants asked the same questions in Slack and ramp-up depended on direct access to a few SMEs.
+Omni modeling patterns and best practices were scattered across personal notes, Notion pages, slide decks, and Slack threads.  
+
+This caused:
+- Repeated “how do I model this?” questions from new consultants  
+- Ramp-up that depended on direct access to a few SMEs  
+- Inconsistent answers to the same modeling and workflow questions  
 
 ## Solution
 
-- Curated a focused corpus of Omni docs and internal training guides.  
-- Designed a Glean agent (“OmniBoss”) scoped to these sources.  
-- Wrote a system prompt and example Q&A to return:
-  - a short summary,
-  - recommended modeling / dashboard pattern,
-  - links to deeper documentation.
+1. **Curated corpus**  
+   - Collected Omni docs, internal training guides, and certification notes into a focused, agent-ready corpus.  
+
+2. **Agent configuration**  
+   - Designed a Glean agent (“OmniBoss”) scoped only to these sources to avoid hallucinations and keep answers grounded in approved patterns.  
+
+3. **Prompt + response design**  
+   - Wrote a system prompt and example Q&A so responses consistently return:  
+     - A short summary  
+     - A recommended modeling / dashboard pattern  
+     - Links to deeper documentation or examples
+
+## How it Works
+
+- Consultants ask natural-language questions like:  
+  - “How should I model a Topic in Omni?”  
+  - “When should I use Topics vs Views?”  
+  - “What’s our preferred pattern for Omni vs Sigma in this use case?”  
+- OmniBoss retrieves relevant docs, applies the prompt logic, and returns a concise, contextual answer plus links to deeper material.  
 
 ## Impact
 
-- Reduced repeated “how do I model this in Omni?” questions.  
+- Reduced repeated “how do I model this in Omni?” questions in Slack.  
 - Faster ramp-up for new team members on Omni projects.  
-- Created a reusable pattern for future agents (Sigma, dbt, etc.).
+- More consistent modeling and workflow decisions across consultants.  
+- Created a reusable pattern for future agents (Sigma, dbt, etc.). 
 
 *(Implementation details and metrics available on request; internal to employer.)*
