@@ -186,6 +186,11 @@ Track performance over time and regional comparisons
 - Omni's "just-in-time" modeling for quick promotion to the Shared Model
 - **Tools:** Omni Analytics (Query Views, filtering, AI summaries, Excel calculations, joins, templated filters)
 
+| | |
+|:-------------------------:|:-------------------------:|
+| <img width="100%" src="project4-allocation/images/Omni_dash_top.png"> <br> **High-level snapshot of distribution center performance, featuring dynamic period-over-period (PoP) analysis** |  <img width="100%" src="project4-allocation/images/Omni_dash2.png"> <br> **Pareto (ABC) Analysis to identify high-impact distribution centers. It combines visualization types to tell a complete story: a dual-axis chart for the "80/20 rule," a classification view grouping centers by strategic importance (Vital, Useful, Trivial), and a narrative text tile that dynamically updates based on query results** |
+| <img width="100%" src="project4-allocation/images/Omni_dash3.png"> <br> **Multi-Metric KPI Card on the left that tracks volume and cost simultaneously against historical baselines. The center and right tiles decompose this high-level data by region and specific distribution center, using a calculated measure to derive daily storage efficiency** | <img width="100%" src="project4-allocation/images/Omni_dash4.png"> <br> **Dual-Axis Combo Chart to correlate inventory holding costs against item unit costs. On the right is an AI-Generated Summary tile, which automatically narrates insights from the underlying data, highlighting outliers (e.g., November’s high storage costs) without manual analysis** |
+
 ---
 
 ### 7. Ruffy.dog – Lightweight Consumer Data App
@@ -195,19 +200,13 @@ A simple, public-facing dog breed reference built using a static dataset and a m
 **Use case**  
 Provide a fast, searchable reference for dog breeds without ads, accounts, or backend infrastructure.
 
-**What it shows**  
-- Practical scoping and MVP discipline  
+**What it shows**
+- MVP scoping and execution discipline  
 - Static data modeling (CSV-based)  
-- Client-side filtering and search  
-- Clear empty-state handling  
-- AI-assisted iteration without hidden complexity  
+- Client-side search and filtering  
+- Intentional handling of empty and failure states  
+- AI-assisted iteration without obscuring system behavior
 
 - **Tech:** Replit, ChatGPT, React, static CSV data, lightweight CSS  
 - **Live site:** https://ruffy.dog  
 - **Repo:** [View README](./project-ruffy/README.md)
-
-
-| | |
-|:-------------------------:|:-------------------------:|
-| <img width="100%" src="project4-allocation/images/Omni_dash_top.png"> <br> **High-level snapshot of distribution center performance, featuring dynamic period-over-period (PoP) analysis** |  <img width="100%" src="project4-allocation/images/Omni_dash2.png"> <br> **Pareto (ABC) Analysis to identify high-impact distribution centers. It combines visualization types to tell a complete story: a dual-axis chart for the "80/20 rule," a classification view grouping centers by strategic importance (Vital, Useful, Trivial), and a narrative text tile that dynamically updates based on query results** |
-| <img width="100%" src="project4-allocation/images/Omni_dash3.png"> <br> **Multi-Metric KPI Card on the left that tracks volume and cost simultaneously against historical baselines. The center and right tiles decompose this high-level data by region and specific distribution center, using a calculated measure to derive daily storage efficiency** | <img width="100%" src="project4-allocation/images/Omni_dash4.png"> <br> **Dual-Axis Combo Chart to correlate inventory holding costs against item unit costs. On the right is an AI-Generated Summary tile, which automatically narrates insights from the underlying data, highlighting outliers (e.g., November’s high storage costs) without manual analysis** |
