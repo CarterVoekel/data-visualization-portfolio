@@ -4,6 +4,12 @@ Business intelligence dashboards and data apps built in Sigma, focused on real-w
 ## How to explore
 This portfolio highlights a few representative projects. Each section links to the live challenge or includes screenshots/video where possible.
 
+## Projects at a glance
+- [OmniBoss – AI Knowledge Assistant](#featured-projects)
+- [NPS Tool & Dashboard](#1-nps-tool--dashboard---workout-wednesday)
+- [Smart Allocation Modeler](#4-smart-allocation-modeler---logistics--planning)
+- [Ruffy.dog – Consumer Safety Tool](#7-ruffydog--lightweight-consumer-data-app)
+
 ## About Me
 Principal Analytics Consultant focused on building data products, dashboards, and data apps in modern BI tools (especially Sigma + Snowflake). I'm a contributor to [Workout Wednesday Sigma Challenges](https://workout-wednesday.com/author/cartervmac-com/)
 
