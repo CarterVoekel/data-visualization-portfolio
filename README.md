@@ -195,17 +195,17 @@ Track performance over time and regional comparisons
 
 ### 7. Ruffy.dog – Lightweight Consumer Data App
 
-A simple, public-facing dog breed reference built using a static dataset and a minimal React front end. The project was intentionally scoped to avoid overengineering and focus on shipping a usable product.
+A simple, public-facing dog safety reference tool built using a static dataset and a minimal React front end. The project was intentionally scoped to avoid overengineering and focus on shipping a usable product.
 
 **Use case**  
-Provide a fast, searchable reference for dog breeds without ads, accounts, or backend infrastructure.
+Provide a fast, searchable reference for dog owners without ads, accounts, or backend infrastructure.
 
 **What it shows**
-- MVP scoping and execution discipline  
-- Static data modeling (CSV-based)  
-- Client-side search and filtering  
-- Intentional handling of empty and failure states  
-- AI-assisted iteration without obscuring system behavior
+- Clear MVP scoping around a real consumer safety use case  
+- Structured static data modeling for toxic vs safe classifications  
+- Client-side search and filtering optimized for fast answers  
+- Explicit empty and “not found” states to reduce user confusion  
+- AI-assisted iteration without obscuring logic or data provenance
 
 - **Tech:** Replit, ChatGPT, React, static CSV data, lightweight CSS  
 - **Live site:** https://ruffy.dog  
