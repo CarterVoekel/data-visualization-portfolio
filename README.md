@@ -7,11 +7,19 @@ This portfolio highlights a few representative projects. Each section links to t
 ## About Me
 Principal Analytics Consultant focused on building data products, dashboards, and data apps in modern BI tools (especially Sigma + Snowflake). I'm a contributor to [Workout Wednesday Sigma Challenges](https://workout-wednesday.com/author/cartervmac-com/)
 
+## Development Approach
+
+I use AI selectively to accelerate scaffolding, iteration, and documentation.  
+All architectural decisions, data modeling choices, and scope trade-offs are made intentionally.
+
+AI is treated as an assistant, not a substitute for judgment.
+
 ## Skills & Tools
 - **BI:** Sigma, Omni, Tableau, Power BI
 - **Analytics:** Data modeling, forecasting, scenario modeling
 - **Stack:** SQL, Snowflake, modern data workflows
-- **AI:** ChatGPT (Projects, prompting), Claude, Gemini (NotebookLM)
+- **AI:** LLM-assisted development, retrieval-based agents, prompt design (ChatGPT, Claude, Gemini / NotebookLM)
+
 
 ## Experience
 - phData (current) - Principal Analytics Consultant
@@ -32,7 +40,7 @@ Principal Analytics Consultant focused on building data products, dashboards, an
 
 ![OmniBoss agent](project5-omniboss-agent/Omniboss-home.png)
 
-Internal Glean-powered AI agent that turns my Omni Analytics training docs and certification notes into a virtual BI expert. OmniBoss answers “how do I…” questions, surfaces relevant examples, and converts long-form enablement material into concise, contextual guidance in real time.
+Internal, Glean-style AI agent that turns my Omni Analytics training docs and certification notes into a virtual BI expert.
 
 [Read the full case study →](project5-omniboss-agent/README.md)
 
