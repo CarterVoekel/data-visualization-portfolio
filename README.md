@@ -46,7 +46,7 @@ AI is treated as an assistant, not a substitute for judgment.
 
 ![OmniBoss agent](project5-omniboss-agent/Omniboss-home.png)
 
-Internal, Glean-style AI agent that turns my Omni Analytics training docs and certification notes into a virtual BI expert.
+Internal, Glean AI agent that turns my Omni Analytics training docs and certification notes into a virtual BI expert.
 
 [Read the full case study →](project5-omniboss-agent/README.md)
 
