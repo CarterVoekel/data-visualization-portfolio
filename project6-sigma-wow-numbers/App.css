@@ -1,0 +1,80 @@
+:root {
+  --bg: #f5f8fc;
+  --panel: #ffffff;
+  --panel-border: #d7e0ec;
+  --title: #10233f;
+  --summary: #555;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Avenir Next", "Segoe UI", sans-serif;
+  background: radial-gradient(circle at 10% 10%, #ecf4ff 0%, #f7f9fc 42%, #edf3fb 100%);
+  color: #1b2f4b;
+}
+
+.app-shell {
+  min-height: 100vh;
+  padding: 36px;
+}
+
+.chart-grid {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  align-items: stretch;
+}
+
+.chart-column {
+  width: 50%;
+  background: var(--panel);
+  border: 1px solid var(--panel-border);
+  border-radius: 14px;
+  padding: 24px 22px 18px;
+  box-shadow: 0 12px 28px rgba(16, 35, 63, 0.08);
+}
+
+.chart-column h2 {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: 800;
+  color: var(--title);
+  letter-spacing: 0.01em;
+}
+
+.summary-insight {
+  margin: 10px 0 16px;
+  font-size: 0.94rem;
+  font-style: italic;
+  line-height: 1.45;
+  color: var(--summary);
+}
+
+.chart-svg {
+  width: 100%;
+  height: 360px;
+  display: block;
+  border-radius: 8px;
+  background: linear-gradient(180deg, #fefefe 0%, #f8fbff 100%);
+}
+
+.chart-caption {
+  font-size: 12px;
+  font-weight: 700;
+  fill: #5f7391;
+}
+
+@media (max-width: 1050px) {
+  .chart-grid {
+    flex-direction: column;
+    gap: 22px;
+  }
+
+  .chart-column {
+    width: 100%;
+  }
+}
