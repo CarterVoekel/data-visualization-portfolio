@@ -29,14 +29,14 @@ Sigma users can now co-create bespoke visuals and narrative layers with AI, then
 - Professional presentation styling for stakeholder-ready communication
 
 ## What AI helped with
-- Translating design intent into a production-ready two-column storytelling layout.
-- Writing dynamic narrative helpers (`getBarInsight()` and `getLineInsight()`) that update with filtered data.
-- Implementing D3 animation patterns (bar rise + line draw via `stroke-dashoffset`) and label logic.
-- Structuring Sigma integration (`workbook.addColumns`, `workbook.on("change")`) so charts and insights stay filter-aware.
+- Translating design intent into a production-ready two-column storytelling layout
+- Writing dynamic narrative helpers (`getBarInsight()` and `getLineInsight()`) that update with filtered data
+- Implementing D3 animation patterns (bar rise + line draw via `stroke-dashoffset`) and label logic
+- Structuring Sigma integration (`workbook.addColumns`, `workbook.on("change")`) so charts and insights stay filter-aware
 
 ## What I’d improve next
-- Performance tuning for large datasets and faster first render in Sigma.
-- Plugin packaging and deployment workflow (dev/prod config, hosting, versioning).
-- Accessibility improvements (contrast validation, keyboard support, ARIA details, reduced-motion handling).
+- Performance tuning for large datasets and faster first render in Sigma
+- Plugin packaging and deployment workflow (dev/prod config, hosting, versioning)
+- Accessibility improvements (contrast validation, keyboard support, ARIA details, reduced-motion handling)
 
 
