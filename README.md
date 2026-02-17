@@ -42,6 +42,23 @@ AI is treated as an assistant, not a substitute for judgment.
 
 ## Featured Projects
 
+### Sigma Workout Wednesday - AI-Assisted Plugin Storytelling (Numbers of Different Magnitudes)
+
+![Sigma WoW plugin](project6-sigma-wow-numbers/plugin-home.png)
+
+Built for Sigma’s Workout Wednesday challenge, this project shows how AI-assisted vibe coding can extend Sigma beyond native visuals.  
+I designed and implemented a custom React + D3 plugin that combines side-by-side magnitude and trend storytelling, dynamic narrative insights, cohort logic, and Sigma filter-aware reactivity.
+
+- Custom two-panel storytelling layout (magnitude + trend)
+- Dynamic narrative functions (`getBarInsight`, `getLineInsight`) driven by filtered data
+- D3 animations and inline chart labeling for executive-ready readability
+- Sigma plugin integration with `workbook.addColumns` and `workbook.on("change")`
+
+[Read the full case study ->](project6-sigma-wow-numbers/README.md)  
+[View the reusable build prompt ->](project6-sigma-wow-numbers/IDEAL_PROMPT_WORKOUT_WEDNESDAY.md)
+
+---
+
 ### OmniBoss – AI Knowledge Assistant for Omni Analytics
 
 ![OmniBoss agent](project5-omniboss-agent/Omniboss-home.png)
