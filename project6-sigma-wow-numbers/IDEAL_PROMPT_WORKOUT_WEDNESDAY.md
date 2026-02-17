@@ -105,7 +105,3 @@ Provide:
 - Animations should support the story, not distract.
 - Final result should be suitable for a public Workout Wednesday showcase and LinkedIn post.
 ```
-
-## Suggested Repo Usage
-- Keep this file in the root for visibility.
-- Reference it from your `README.md` as: "Prompt used to build the Sigma plugin." 
