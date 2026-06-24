@@ -76,7 +76,6 @@ Built alongside the pilot org (Dogs Matter Dallas) from day one, which means the
 
 **Stack:** Next.js · Supabase · PostgreSQL · Replit · Claude API · Resend · Make.com · Stripe (in progress)  
 **Live pilot:** Dogs Matter Dallas — 400+ fosters imported, public intake active at [pact.dog/dogs-matter/foster](https://pact.dog/dogs-matter/foster)  
-**Repo:** [github.com/CarterVoekel/pact](https://github.com/CarterVoekel/pact) *(private)*
 
 ---
 
