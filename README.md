@@ -5,9 +5,9 @@ Business intelligence dashboards and data apps built in Sigma, focused on real-w
 This portfolio highlights a few representative projects. Each section links to the live challenge or includes screenshots/video where possible.
 
 ## Projects at a glance
-- [OmniBoss – AI Knowledge Assistant](#featured-projects)
 - [Pact – Foster Management Platform](#pact--foster-management-platform)
 - [NPS Tool & Dashboard](#1-nps-tool--dashboard---workout-wednesday)
+- [OmniBoss – AI Knowledge Assistant](#featured-projects)
 - [Smart Allocation Modeler](#4-smart-allocation-modeler---logistics--planning)
 - [Ruffy.dog – Consumer Safety Tool](#7-ruffydog--lightweight-consumer-data-app)
 
