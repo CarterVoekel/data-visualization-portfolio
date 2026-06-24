@@ -24,10 +24,11 @@ AI is treated as an assistant, not a substitute for judgment.
 - **BI:** Sigma, Omni, Tableau, Power BI
 - **Analytics:** Data modeling, forecasting, scenario modeling
 - **Stack:** SQL, Snowflake, modern data workflows
-- **AI:** LLM-assisted development, retrieval-based agents, prompt design (ChatGPT, Claude, Gemini / NotebookLM)
+- **AI:** LLM-assisted development, retrieval-based agents, prompt design (Claude, Claude Design, Replit, ChatGPT, Gemini / NotebookLM)
 
 
 ## Experience
+- Spaulding Ridge - Delivery Manager
 - phData (current) - Principal Analytics Consultant
 - Softbank Robotics - Product Manager (Efficiency and Data Products) and Customer Experience Manager
 - dwelo/Level Home - Data Analyst
@@ -37,7 +38,6 @@ AI is treated as an assistant, not a substitute for judgment.
 - LinkedIn: https://www.linkedin.com/in/carter-voekel/
 - Workout Wednesday: https://workout-wednesday.com/author/cartervmac-com/
 - Email: carterv@mac.com
-
 ---
 
 ## Featured Projects
