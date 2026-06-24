@@ -60,21 +60,11 @@ I designed and implemented a custom React + D3 plugin that combines side-by-side
 
 ---
 
-### OmniBoss – AI Knowledge Assistant for Omni Analytics
-
-![OmniBoss agent](project5-omniboss-agent/Omniboss-home.png)
-
-Internal, Glean AI agent that turns my Omni Analytics training docs and certification notes into a virtual BI expert.
-
-[Read the full case study →](project5-omniboss-agent/README.md)
-
----
-
 ### Pact – Foster Management Platform
 
 **[pact.dog](https://pact.dog)** · B2B SaaS · Solo founder + developer
 
-A purpose-built foster management platform for animal rescue and welfare organizations. Replaces fragmented coordinator workflows — spreadsheets, group texts, Doobert — with a unified system covering intake, AI-powered matching, full placement lifecycle tracking, and automated communications.
+A purpose-built foster management platform for animal rescue and welfare organizations. Replaces fragmented coordinator workflows — spreadsheets, group texts, tribal knowledge — with a unified system covering intake, AI-powered matching, full placement lifecycle tracking, medical tracking, and more.
 
 Built alongside the pilot org (Dogs Matter Dallas) from day one, which means the data model and UX reflect how coordinators actually work, not how shelter software assumes they do.
 
@@ -84,9 +74,19 @@ Built alongside the pilot org (Dogs Matter Dallas) from day one, which means the
 - Multi-tenant SaaS patterns: org-scoped routing, RLS-aware service role architecture, coordinator invite flows, superadmin tooling
 - Practical tradeoffs: fast iteration on Replit with GitHub as source of truth; production-grade decisions (RLS, audit trails, CSV import dedup) made intentionally from the start
 
-**Stack:** Next.js · Supabase · PostgreSQL · Claude API · Resend · Make.com · Stripe (in progress)  
+**Stack:** Next.js · Supabase · PostgreSQL · Replit · Claude API · Resend · Make.com · Stripe (in progress)  
 **Live pilot:** Dogs Matter Dallas — 400+ fosters imported, public intake active at [pact.dog/dogs-matter/foster](https://pact.dog/dogs-matter/foster)  
 **Repo:** [github.com/CarterVoekel/pact](https://github.com/CarterVoekel/pact) *(private)*
+
+---
+
+### OmniBoss – AI Knowledge Assistant for Omni Analytics
+
+![OmniBoss agent](project5-omniboss-agent/Omniboss-home.png)
+
+Internal, Glean AI agent that turns my Omni Analytics training docs and certification notes into a virtual BI expert.
+
+[Read the full case study →](project5-omniboss-agent/README.md)
 
 ---
 
